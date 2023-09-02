@@ -1,0 +1,31 @@
+.header
+{
+	padding: 20px 0;
+	border-bottom: 2px solid #313131;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__nav
+{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+	.router-link-active { color: blue; }
+}
+
+.header__logo
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.header__nav-link
+{
+	transition: 0.2s all ease;
+
+	&:hover { color: blue; }
+
+}
